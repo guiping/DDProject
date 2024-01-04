@@ -82,4 +82,5 @@ dependencies {
     // 协程Java8支持库
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.4.3"
     implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation ("com.appsflyer:af-android-sdk:6.9.0")
 }
