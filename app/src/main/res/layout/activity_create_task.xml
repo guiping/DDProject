@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_template"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.kiudysng.ddproject.ui.view.RadiusCardView
+                android:layout_width="match_parent"
+                android:layout_height="375dp"
+                app:rcv_bottomLeftRadiu="32dp"
+                app:rcv_bottomRightRadiu="32dp"
+                tools:ignore="MissingClass">
+
+                <ImageView
+                    android:id="@+id/iv_temp_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="375dp" />
+            </com.kiudysng.ddproject.ui.view.RadiusCardView>
+        </FrameLayout>
+
+        <com.kiudysng.ddproject.ui.view.FlowTagLayout
+            android:id="@+id/flowTagLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_create_task"
+            android:layout_below="@+id/ll_edt"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:item_background="@drawable/select_tag_bg"
+            app:item_bottomMargin="8dp"
+            app:item_bottomPadding="6dp"
+            app:item_leftMargin="8dp"
+            app:item_leftPadding="12dp"
+            app:item_rightPadding="12dp"
+            app:item_textColor="@color/white"
+            app:item_textSize="12sp"
+            app:item_topMargin="8dp"
+            app:item_topPadding="6dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_text_picture_back" />
+
+    <EditText
+        android:id="@+id/edt_input_msg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/fl_template"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_msg_bg"
+        android:fontFamily="@font/robotoslab_regular"
+        android:gravity="start"
+        android:hint="Type in anything"
+        android:padding="15dp"
+        android:textColor="@color/purple_200"
+        android:textColorHint="@color/black_88"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_create_task"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/robotoslab_black"
+        android:gravity="center"
+        android:text="@string/str_create"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:id="@+id/fl_load"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pb_load_bg"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/load_bar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+    </FrameLayout>
+</RelativeLayout>

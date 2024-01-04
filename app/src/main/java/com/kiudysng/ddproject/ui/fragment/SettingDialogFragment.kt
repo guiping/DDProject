@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
+import com.kiudysng.ddproject.R
 
 class SettingDialogFragment: DialogFragment() {
     override fun onCreateView(

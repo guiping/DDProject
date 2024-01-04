@@ -1,3 +1,159 @@
 <resources>
     <string name="app_name">DDProject</string>
+    <string name="tr_try_now">Try Now</string>
+    <string name="str_create">CREATE</string>
+    <string name="str_download">DOWNLOAD</string>
+    <string name="art_work">Create artwork</string>
+    <string name="copy_tags">Copy tags</string>
+    <array name="tag_art_list">
+        <item>#Utra </item>
+        <item>#Highly detailed</item>
+        <item>#Cyborads </item>
+        <item>#Digital art</item>
+        <item>#4k HD</item>
+        <item>#Infinite Fractals</item>
+        <item>Lightning Tree</item>
+        <item>Ruined Castle</item>
+        <item>#Fireworks</item>
+        <item>#Alien Flower</item>
+    </array>
+
+    <array name="tag_lists">
+        <item>#artcollector #love #artistoninstagram #artlife #modernart #artistsofinstagram
+            #drawings #design #artofinstagram #paint #picture #portrait #watercolor #artists
+            #abstract #artstagram #myart #acrylicpainting #pen #artworks #sketching #graphic
+            #artlover #paper #masterpiece #illustrator #fanart #pencildrawing #artoninstagram
+            #paintings
+        </item>
+        <item>#artsyfartsy #art #artsy #artist #artwork #artistsoninstagram #artlover #drawing
+            #artoftheday #arts #sketch #artlife #artofinstagram #painting #artistic #artworks
+            #artgram #instaart #artshow #illustration #artistsofinstagram #handmade #mixedmedia
+            #digitalart #artsyaesthetic #atxart #artstuff #artstagram #austinart #watercolor
+        </item>
+        <item>#austinartist #artistoninstagram #polymerclay #austin #whimsicalart #littleartshow
+            #acrylicpainting #clayart #clayartwork #sculptureart #clayartstyle #photography
+            #progressart #handsculpted #creations #abstractart #whimsicalaf #ideas #draw #arte
+            #artnerd #characterdesign #miniature #sketchbook #creative #supersculpey
+            #contemporaryart #designing #characterquality #funart
+        </item>
+        <item>#artsyfartsy #daily #artwork #sketch #painting #digitalart #draw #arte #creative
+            #aesthetic #artistsoninstagram #instaart #sketchbook #artoftheday #contemporaryart
+            #watercolor #doodle #artsy #abstractart #gallery #models
+        </item>
+        <item>#artoftheday #art #artist #artwork #artistsoninstagram #drawing #painting #instaart
+            #illustration #sketch #artgallery #digitalart #artofinstagram #contemporaryart #arte
+            #draw #artsy #abstractart #creative #sketchbook #arts #artlovers #instagood #artistic
+            #design #portrait #artistsofinstagram #watercolor #acrylicpainting #instaartist
+        </item>
+        <item>#gallery #love #drawings #modernart #fineart #artistoninstagram #artcollector #paint
+            #photooftheday #photography #sketching #fanart #illustrator #abstract #artlover
+            #drawingoftheday #digitalillustration #artoninstagram #instagram #artlife #pencildrawing
+            #paintings #pencil #digitaldrawing #artdaily #ink #picoftheday #artworks #beautiful
+            #dailyart
+        </item>
+        <item>#sketch #art #drawing #artist #illustration #sketchbook #artwork #draw #digitalart
+            #artistsoninstagram #sketching #painting #instaart #artoftheday #fanart #doodle
+            #drawings #design #pencil #pencildrawing #anime #ink #portrait #arte #sketches
+            #illustrator #inktober #watercolor #creative #love
+        </item>
+        <item>#procreate #pencilsketch #digitaldrawing #instagood #arts #manga #cartoon #paint
+            #traditionalart #characterdesign #artsy #myart #pencilart #oc #blackandwhite
+            #digitalillustration #instagram #digital #dibujo #instaartist #digitalpainting #pen
+            #tattoo #animeart #photography #drawingoftheday #drawingsketch #artgallery #color
+            #beautiful
+        </item>
+        <item>#sketch #art #drawing #artist #illustration #sketchbook #artwork #draw #digitalart
+            #artistsoninstagram #sketching #painting #instaart #artoftheday #fanart #doodle
+            #drawings #design #pencil #pencildrawing #anime #ink #portrait #arte #sketches
+            #illustrator #inktober #watercolor #creative #love
+        </item>
+        <item>#procreate #pencilsketch #digitaldrawing #instagood #arts #manga #cartoon #paint
+            #traditionalart #characterdesign #artsy #myart #pencilart #oc #blackandwhite
+            #digitalillustration #instagram #digital #dibujo #instaartist #digitalpainting #pen
+            #tattoo #animeart #photography #drawingoftheday #drawingsketch #artgallery #color
+            #beautiful
+        </item>
+        <item>#draw #drawing #art #artist #sketch #illustration #artwork #digitalart #drawings
+            #sketchbook #painting #instaart #artistsoninstagram #arte #fanart #anime #artoftheday
+            #sketching #dibujo #pencil #design #paint #ink #illustrator #portrait #digitaldrawing
+            #creative #pencildrawing #doodle #love
+        </item>
+        <item>#draw #artwork #sketch #painting #color #digitalart #draw #arte #creative
+            #artistsoninstagram #ink #instaart #sketchbook #manga #artoftheday #watercolor #paint
+            #doodle #fanart #illustrator #artsy
+        </item>
+        <item>#draw #desenho #drawingoftheday #dessin #dibujos #drawingsketch #drawthisinyourstyle
+            #draws #drawingart #draweveryday #drawn #drawingchallenge #drawdaily #drawdrawdraw
+            #drawingaday #drawer #
+        </item>
+        <item>#draw #drawsomething #drawthisinyourstylechallenge #drawinganime #drawingpen
+            #drawoftheday #drawart #drawingartist #drawingtutorial #drawinyourstyle #drawingpencil
+            #drawlloween #drawingskills #drawingpractice #drawingtime #drawstringbag #drawning
+            #drawers #drawingstyle #drawingsofinstagram #drawanime
+        </item>
+        <item>#drawingart #drawing #art #artwork #drawings #draw #artist #sketch #drawingoftheday
+            #drawingsketch #illustration #artistsoninstagram #pencildrawing #artoftheday #sketchbook
+            #digitalart #painting #sketching #instaart #pencilart #digitaldrawing #pencil #arte
+            #arts #artgallery #fanart #drawingartist #anime #portrait #drawdrawdraw
+        </item>
+        <item>#drawthisinyourstyle #artofinstagram #drawingaday #drawingchallenge #sketches
+            #artdrawing #drawinganime #pencilsketch #draweveryday #artistic #drawingpencil #artworks
+            #animeart #draws #digitalillustration #drawingpen #illustrator #daily #watercolor
+            #drawart #dibujo #illustrationartists #sketchart #inktober #artsy #paint
+            #artistoninstagram #illustrationart #drawdaily #digital
+        </item>
+        <item>#drawingart #daily #artwork #sketch #painting #digitalart #draw #arte
+            #artistsoninstagram #instaart #sketchbook #artoftheday #watercolor #paint #doodle
+            #fanart #illustrator #artsy #pencil #drawings #digital
+        </item>
+        <item>#drawingart #drawingoftheday #illustrationartists #pencilart #artworks #pencilsketch
+            #illustrationart #drawingsketch #drawthisinyourstyle #draws #drawingart #draweveryday
+            #sketchart #drawingchallenge #artdrawing #drawdrawdraw #drawingaday #
+        </item>
+        <item>#drawingart #drawinganime #drawingpen #drawart #drawingartist #drawingpencil
+            #drawingartwork #drawingartworks #drawingarts #drawingartists #drawingartistic
+            #drawingartinside #drawingartfair #
+        </item>
+        <item>#drawingartist #drawing #art #drawingart #drawings #artist #drawingoftheday #artwork
+            #drawingsketch #sketch #draw #artistsoninstagram #pencildrawing #illustration
+            #artoftheday #sketchbook #drawingaday #drawingchallenge #drawingpen #digitalart
+            #drawinganime #drawingsofinstagram #drawingtutorial #drawingskills #drawingstyle
+            #drawingpencil #sketching #drawdrawdraw #artofinstagram #drawingdaily
+        </item>
+        <item>#pencilart #painting #digitaldrawing #arts #artistoninstagram #portrait #artgallery
+            #drawart #drawingpractice #drawingeveryday #drawinganatomyandart #pencil #arte
+            #drawingbyme #instaart #artdrawing #inkdrawing #drawingtime #dessin #fanart #me
+            #draweveryday #drawingofinstagram #drawingmanga #drawingbook #artlover #drawingday
+            #drawingoninstagram #drawinyourstyle #sketchart
+        </item>
+        <item>#drawingartist #daily #artwork #sketch #painting #digitalart #draw #arte
+            #artistsoninstagram #instaart #sketchbook #artoftheday #fanart #pencil #drawings
+            #artgallery #arts #artistic #sketching #pencildrawing #digitaldrawing
+        </item>
+        <item>#drawingartist #drawingoftheday #pencilart #inkdrawing #artworks #feature #expression
+            #drawingsketch #drawingart #draweveryday #drawingchallenge #artdrawing #drawdrawdraw
+            #drawingaday #
+        </item>
+        <item>#drawingartist #drawinganime #drawingpen #drawart #drawingartist #drawingtutorial
+            #drawingpencil #drawingskills #drawingpractice #drawingstyle #drawingsofinstagram
+            #drawingdaily #drawingbyme #drawinganatomyandart #drawingoninstagram #drawingday
+            #drawingofinstagram #drawingartists #drawingartistic #
+        </item>
+        <item>#drawinganime #drawing #anime #art #animeart #animedrawing #draw #drawings #manga
+            #drawingart #fanart #artwork #sketch #artist #mangaart #animeartist #drawingsketch
+            #drawingoftheday #animeartwork #mangadrawing #drawingmanga #animedraw #digitalart
+            #animefanart #animegirl #feature #mangaartist #drawingchallenge #animesketch
+            #illustration
+        </item>
+        <item>#drawanime #animedrawings #drawingtutorial #sketchbook #fanartanime
+            #artistsoninstagram #drawingaday #otaku #pencildrawing #animeartcollective #drawingpen
+            #desenho #sketches #artanime #animes #drawingartist #digitaldrawing #animeboy #mangadraw
+            #artoftheday #draws #drawthisinyourstyle #drawingpencil #desenhos #animelover #naruto
+            #sketching #drawdrawdraw #me #animeartgallery
+        </item>
+        <item>#drawinganime #artwork #sketch #digitalart #draw #artistsoninstagram #sketchbook
+            #manga #artoftheday #kawaii #fanart #otaku #drawings #naruto #arts #sketching #animegirl
+            #animeart #pencildrawing #digitaldrawing #sketches
+        </item>
+    </array>
 </resources>

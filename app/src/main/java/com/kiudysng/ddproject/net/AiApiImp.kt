@@ -20,6 +20,6 @@ object AiApiImp {
         return HttpManager.getApiClient().taskBatch(ids)
     }
     fun getToken(): Observable<TokenEntity> {
-        return HttpManager.getApiClient().getToken("AIzaSyDxCoSRCFvdsYcJalNfBQQfGl0-YycRkdE")
+        return AiApiToken.getApiClient().getToken("AIzaSyDxCoSRCFvdsYcJalNfBQQfGl0-YycRkdE")
     }
 }

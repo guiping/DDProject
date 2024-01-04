@@ -14,20 +14,17 @@ import com.kiudysng.ddproject.ui.fragment.TagFragment
 import com.kiudysng.ddproject.ui.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
-    private val binding:  ActivityMainBinding by lazy {
+    private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
     private val mFragments = ArrayList<Fragment>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
-                .commitNow()
-        }
+
         init()
     }
+
     private fun init() {
         val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
@@ -55,12 +52,14 @@ class MainActivity : AppCompatActivity() {
             textGeneratedImg.isChecked = true
             radioGroup.setOnCheckedChangeListener { _, checkedId ->
                 when (checkedId) {
-                    textGeneratedImg-> {
+                    R.id.text_generated_img -> {
                         viewpagerMain.currentItem = 0
-
+                        title.text = getText(R.string.art_work)
                     }
-                     R.id.radio_tag -> {
+
+                    R.id.radio_tag -> {
                         viewpagerMain.currentItem = 1
+                        title.text = getText(R.string.copy_tags)
                     }
                 }
             }
