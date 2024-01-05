@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.kiudysng.ddproject.ui.view.RadiusCardView
+            <com.dsauufysncia.ai.ui.view.RadiusCardView
                 android:layout_width="match_parent"
                 android:layout_height="375dp"
                 app:rcv_bottomLeftRadiu="32dp"
@@ -25,10 +25,10 @@
                     android:id="@+id/iv_temp_pic"
                     android:layout_width="match_parent"
                     android:layout_height="375dp" />
-            </com.kiudysng.ddproject.ui.view.RadiusCardView>
+            </com.dsauufysncia.ai.ui.view.RadiusCardView>
         </FrameLayout>
 
-        <com.kiudysng.ddproject.ui.view.FlowTagLayout
+        <com.dsauufysncia.ai.ui.view.FlowTagLayout
             android:id="@+id/flowTagLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

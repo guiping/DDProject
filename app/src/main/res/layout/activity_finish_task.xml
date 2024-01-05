@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.kiudysng.ddproject.ui.view.RadiusCardView
+        <com.dsauufysncia.ai.ui.view.RadiusCardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:rcv_bottomLeftRadiu="32dp"
@@ -21,10 +21,11 @@
 
             <ImageView
                 android:id="@+id/iv_temp_pic"
+                android:scaleType="fitXY"
                 android:layout_width="match_parent"
-                android:layout_height="375dp" />
+                android:layout_height="match_parent" />
 
-        </com.kiudysng.ddproject.ui.view.RadiusCardView>
+        </com.dsauufysncia.ai.ui.view.RadiusCardView>
     </FrameLayout>
 
     <ImageView

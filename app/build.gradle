@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace 'com.kiudysng.ddproject'
+    namespace 'com.dsauufysncia.ai'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.kiudysng.ddproject"
-        minSdk 24
-        targetSdk 34
+        applicationId "com.dsauufysncia.ai"
+        minSdk 23
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
